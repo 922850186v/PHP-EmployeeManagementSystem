@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    background-color: #c3c6ff;
+}
+h1{
+    text-align: center;
+    padding:0 auto;
+    margin: 0 auto;
+}
+
+a .back{
+    text-align: right;
+}
+.insert-data{
+    width: 40%;
+    margin: 5% auto;
+    background-color: rgb(220, 232, 255);
+    padding: 2.5%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+.user-insert{
+    text-align:right;
+   
+}
+.role{
+    width: 100%;
+    float: right;
+}
+
+/* .heading{
+    height: 30px;
+    width:100% auto;
+    
+} */
+.container{
+    width: 40%;
+    margin: 5% auto;
+    padding: 1%;
+    background-color: rgb(220, 232, 255);
+    border-radius: 20px;
+    
+}
+.table{
+    padding: 2% 0;
+} 
+.table a{
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(0, 49, 114);
+}
+.table th{
+    background-color: #c3c6ff;
+    border-radius: 5px auto;
+}
+.table td{
+    padding: 1%;
+    text-align: center;
+}
+.table th td{
+    border-bottom: 1px solid #aaa;
+}
+.table input{
+    border-radius: 10px;
+    padding: 1%;
+}
+.adduser{
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: 100;
+}
+#username #password{
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+.error {
+    width: 70%; 
+    margin: 5% auto; 
+    padding: 0; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: center;
+    
+  }
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin: 0 0 10px 42%;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+}
+.form{
+    margin-left: 35%;
+    
+}
+.lables{
+    text-align: right;
+}
+.adduser{
+    padding-bottom: 2%;
+}
+header{
+    background-color: rgb(220, 232, 255);
+    overflow: auto;
+    padding: 0.25%;
+}
+header .heading{
+    float: left;
+    padding-left: 5%;
+}
+header .loggedin{
+    padding: 1% 3% 0 0;
+    float: right;
+}
+.btn{
+    border-radius: 5px;
+    border: solid #5c9dff;
+    margin-top: 5%;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    
+}
